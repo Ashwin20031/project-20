@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+
+body{
+    height: 100vh;
+    background-color:rgb(242, 234, 220);
+    overflow: hidden;
+}
+
+p{
+    font-size: 3rem;
+
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Rye", serif;
+    align-self: flex-end;
+}
+h1{
+ 
+    font-family: "Rye", serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem 0.4rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.card{
+    display: flex;
+}
+
+.container{
+
+    width: 40vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container p{
+    margin:  1rem 0rem;
+}
+
+.container p:nth-child(2){
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+button{
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    font-family: "Rye", serif;
+    letter-spacing: 4px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.content{
+    z-index: 1000;
+}
+
+.image{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img img{
+    width: 40vw;
+    height: 100%;
+    
+    cursor: pointer;
+}
+.con{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(66, 63, 63, 0.188) 90%);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+.con p{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Rye", serif;
+    color: antiquewhite;
+   
+}
+.con p:nth-child(2){
+   
+    font-size: 1rem;
+    color: aliceblue;
+   
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.connect div{
+   padding: 0.6rem;
+   border-radius: 0.5rem;
+   background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+hr{
+    width: 10rem;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+span{
+    font-family: "Rye", serif;
+
+}
+.last{
+    text-align: center;
+}
+
